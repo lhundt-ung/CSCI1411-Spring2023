@@ -6,7 +6,7 @@ Throughout the semester, assignment and lab starter code will be posted inside t
 
 After launching your VM for the first time, it will need to download the course content. The steps below create the initial copy inside of your VM. This only needs to be done once.
 
-1. Launch your VM in Oracle Virtual Box
+1. Launch your VM in VMware Player
 2. Open a terminal window or IDE (Visual Studio Code, PowerShell ISE)
 3. Clone Repository
 
@@ -18,7 +18,7 @@ git clone https://github.com/lhundt-ung/CSCI1411-Spring2023/
 
 After the initial copy, when new lecture code or assignments are loaded you can pull down the latest content by following the instructions below.
 
-1. Launch your VM in Oracle Virtual Box
+1. Launch your VM in VMware Player
 2. Open a terminal window or IDE (Visual Studio Code, PowerShell ISE)
 3. Change Directory (cd) to base of the repository folder (i.e WINDOWS: c:\users\administrator\CSCI1411-Spring2023 or KALI: /home/kali/CSCI1411-Spring2023)
 3. Pull (Sync) Repository
