@@ -16,5 +16,5 @@ function addNumbers(){
     return $z
 }
 
-$result = addNumbers $userInput1 $userInput2
-Write-Host $result
+$result = addNumbers $userInput1 
+#Write-Host $result
