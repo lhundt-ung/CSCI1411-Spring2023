@@ -1,20 +1,6 @@
-﻿#Select-String
-Get-Content .\access.log | Select-String -SimpleMatch "honeypot" 
-
-
-$hits = Get-Content .\access.log | Select-String -SimpleMatch "honeypot"
-$hits[0]
-
-#Simple Match without using Get-Content
-Select-String -Path access.log -SimpleMatch "honeypot"
-
-
-
-
-
-#Simple Match note the -Pattern Argument
-#Select-String -Path .\*.* -Pattern "function" -CaseSensitive 
-
-
-
+﻿# If branch to see if SSN exists in string
+$ssn = 'This is my SSN: 123-45-6789'
+if($ssn -match '\d\d\d-\d\d-\d\d\d\d'){
+    Write-Host "This string contains a SSN"
+}
 
