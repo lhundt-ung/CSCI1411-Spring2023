@@ -1,0 +1,26 @@
+#Type conversion Example
+x = 15
+str1 = "10"
+
+#y = x + str1
+#y = x + str1
+
+#print("This is the value of y: " + y)
+#print("This is the value of y: ",y)
+
+
+# Find the speed of an object
+# It takes 3 hours to travel a total distance
+# of 150 miles,what is the avg. speed? 
+# Speed = distance / time
+
+distance = 150
+time = 3
+
+avgSpeed = distance/time
+print(avgSpeed)
+
+inputDistance = input("Distance: ")
+inputTime = input("Time it took: ")
+
+print("The average speed is ", round(float(inputDistance)/float(inputTime),2))

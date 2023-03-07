@@ -1,5 +1,5 @@
 #1. Display Lines 9-16 in sherlock.txt using head and tail commands
-head -n 16 sherlock.txt | tail -8
+head -n 16 sherlock.txt
 
 #2. Search for the word Holmes in the first 1000 lines, then copy results to extract.txt
 head -n 1000 sherlock.txt | grep "Holmes" > extract.txt
@@ -8,9 +8,8 @@ head -n 1000 sherlock.txt | grep "Holmes" > extract.txt
 date >> extract.txt
 
 #4. Read the output of extracted.txt
-less extract.txt
-cat extract.txt
 more extract.txt
+cat extract.txt
 
 #5. Copy extract.txt into a new file called extracted_backup.txt
 cp extract.txt extracted_backup.txt
@@ -26,8 +25,8 @@ rm extract*
 host google.com
 
 #9. Same query as #8 but only lines with mail addresses. Then write out to google.txt
-host google.com | grep "mail" > google.txt
+host google.com | grep mail > google.txt
 
 #10. Another Redirection Example
-dirb http://10.0.2.4
-dirb http://10.0.2.4 | grep "(SIZE" | grep "CODE"
+dirb http://192.168.253.135
+dirb http://192.168.253.135 | grep "SIZE:"
